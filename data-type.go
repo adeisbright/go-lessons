@@ -16,6 +16,9 @@ func usingVariables() {
 	fmt.Println("The age is", age)
 	fmt.Println(laptopPrice, isOld)
 
+	//This cannot be done outside a function
+	// you cannot also use it for a variable that has
+	// been declared before
 	language := "Go Programming Language"
 	fmt.Println("I am building with", language)
 

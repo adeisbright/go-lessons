@@ -9,4 +9,9 @@ func main() {
 	usingSwitch(8)
 	usingLoop(10)
 	testFunctions()
+	list()
+	structer()
+	mapper()
+	timer()
+	stringer()
 }
