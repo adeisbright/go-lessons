@@ -14,13 +14,13 @@ func mapper() {
 		map<keyType><ValueType>
 	*/
 	var places = map[string]Place{
-		"Lekki":    Place{"Lekki", "Lagos"},
-		"Choba":    Place{"Choba", "Rivers"},
-		"Uyo":      Place{"Uyo", "Akwa-Ibom"},
-		"Oraifite": Place{"Oraifite", "Anambra"},
-		"Akure":    Place{"Akure", "Ondo"},
-		"Akenfa":   Place{"Akenfa", "Bayelsa"},
-		"Ekosodin": Place{"Ekosodin", "Edo"},
+		"Lekki":    {"Lekki", "Lagos"},
+		"Choba":    {"Choba", "Rivers"},
+		"Uyo":      {"Uyo", "Akwa-Ibom"},
+		"Oraifite": {"Oraifite", "Anambra"},
+		"Akure":    {"Akure", "Ondo"},
+		"Akenfa":   {"Akenfa", "Bayelsa"},
+		"Ekosodin": {"Ekosodin", "Edo"},
 	}
 
 	var example = map[string]int{
