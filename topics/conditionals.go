@@ -1,8 +1,8 @@
-package main
+package topics
 
 import "fmt"
 
-func usingIf(num int) {
+func UsingIf(num int) {
 	fmt.Println("Working with if Statement")
 	/*
 		Using the if statement
@@ -23,7 +23,7 @@ func usingIf(num int) {
 	}
 }
 
-func usingSwitch(num int) {
+func UsingSwitch(num int) {
 	fmt.Println("Working with Switch Statement")
 	/*
 		Using the switch statement
@@ -44,6 +44,5 @@ func usingSwitch(num int) {
 		fmt.Println("a is less than  num")
 	default:
 		fmt.Println("a is I cannot say")
-		break
 	}
 }

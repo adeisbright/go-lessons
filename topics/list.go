@@ -1,8 +1,8 @@
-package main
+package topics
 
 import "fmt"
 
-func list() {
+func List() {
 	fmt.Println("Working with List")
 	//An array has fixed length
 

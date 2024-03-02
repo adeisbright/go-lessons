@@ -1,7 +1,7 @@
-package main
+package topics
 
 import "fmt"
 
-func sayHello() {
+func SayHello() {
 	fmt.Println("Hello,World. This is from Bigjara")
 }

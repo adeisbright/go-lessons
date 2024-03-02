@@ -1,8 +1,8 @@
-package main
+package topics
 
 import "fmt"
 
-func usingLoop(count int) {
+func UsingLoop(count int) {
 	fmt.Println("Working with loops in Go")
 	fmt.Println("---------------")
 	/*

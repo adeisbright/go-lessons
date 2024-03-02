@@ -1,27 +1,27 @@
-package main
+package topics
 
 import "fmt"
 
 type Person struct {
-	name string
-	age  int
+	Name string
+	Age  int
 }
 
 func (user Person) printName() {
-	fmt.Println(user.name, "is ", user.age, "years old")
+	fmt.Println(user.Name, "is ", user.Age, "years old")
 }
 
-func structer() {
+func Structer() {
 	fmt.Println("Working with Struct")
 
 	smallPerson := Person{"John Doe", 35}
-	fmt.Println(smallPerson, smallPerson.name)
+	fmt.Println(smallPerson, smallPerson.Name)
 
 	//Working with pointers
 	smallPersonCopy := &smallPerson
-	fmt.Println(smallPersonCopy.name)
-	smallPersonCopy.name = "Elizabeth Token"
-	fmt.Println(smallPersonCopy.name)
+	fmt.Println(smallPersonCopy.Name)
+	smallPersonCopy.Name = "Elizabeth Token"
+	fmt.Println(smallPersonCopy.Name)
 
 	person := Person{}
 	fmt.Println(person)

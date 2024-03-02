@@ -1,8 +1,8 @@
-package main
+package topics
 
 import "fmt"
 
-func fizzBuzz(number int) {
+func FizzBuzz(number int) {
 	fmt.Println("Working with Fizzbuzz")
 	for i := 0; i <= number; i++ {
 		if i%5 == 0 && i%3 == 0 {

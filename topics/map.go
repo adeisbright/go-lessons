@@ -1,8 +1,8 @@
-package main
+package topics
 
 import "fmt"
 
-func mapper() {
+func Mapper() {
 	fmt.Println("Working with Map")
 
 	type Place struct {

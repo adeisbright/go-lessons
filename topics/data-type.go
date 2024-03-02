@@ -1,8 +1,8 @@
-package main
+package topics
 
 import "fmt"
 
-func usingVariables() {
+func UsingVariables() {
 	//A String
 	var name string = "Adeleke Bright"
 	fmt.Println(name)

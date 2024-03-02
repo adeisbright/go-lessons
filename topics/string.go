@@ -1,11 +1,11 @@
-package main
+package topics
 
 import (
 	"fmt"
 	"strings"
 )
 
-func stringer() {
+func Stringer() {
 	fmt.Println("Working with Strings")
 
 	name := "Abike"

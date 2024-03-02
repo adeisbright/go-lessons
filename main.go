@@ -3,6 +3,7 @@ package main
 import (
 	"errors"
 	"fmt"
+	"mypackages/topics"
 	"os"
 	"time"
 
@@ -39,6 +40,7 @@ func CheckHashedPassword(hashedPassword string, password string) bool {
 
 func main() {
 	fmt.Println("Hello,World")
+	topics.Timer()
 	//sayHello()
 	// usingVariables()
 	// usingSwitch(8)
