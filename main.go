@@ -40,7 +40,10 @@ func CheckHashedPassword(hashedPassword string, password string) bool {
 
 func main() {
 	fmt.Println("Hello,World")
-	topics.Timer()
+
+	randomString, _ := topics.GenerateRandomString(10)
+	fmt.Println("Your id is ", randomString)
+	//topics.Timer()
 	//sayHello()
 	// usingVariables()
 	// usingSwitch(8)
