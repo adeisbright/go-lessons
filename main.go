@@ -65,9 +65,9 @@ func main() {
 	// &p : Points to the memory address of p
 	// *p = value , changes p to value and dereences p
 
-	original := "Precious Maduka"
+	original := "Precious Foobar"
 	fake := &original
-	*fake = "Girl with Big Bum Bum"
+	*fake = "Bar with the foo"
 	fmt.Println(original, fake)
 	//If you print a pointer , the address that the point
 	// is pointed to is what will be returned
